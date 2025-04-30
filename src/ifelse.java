@@ -14,7 +14,7 @@ public static void main(String[] args) {
     } else {
         System.out.println(year + " is not a leap year.");
     }
-    
+    s.close();
 }
 
 }
