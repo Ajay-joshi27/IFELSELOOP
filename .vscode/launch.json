@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringEquals",
+            "request": "launch",
+            "mainClass": "StringEquals",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
             "name": "ifelse",
             "request": "launch",
             "mainClass": "ifelse",
