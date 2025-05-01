@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SalaryBracket",
+            "request": "launch",
+            "mainClass": "SalaryBracket",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
+            "name": "AJAY",
+            "request": "launch",
+            "mainClass": "AJAY",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
+            "name": "TwoStringsAreEqual",
+            "request": "launch",
+            "mainClass": "TwoStringsAreEqual",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
             "name": "StringEquals",
             "request": "launch",
             "mainClass": "StringEquals",
