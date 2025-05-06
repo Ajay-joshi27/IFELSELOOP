@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibonaciupton",
+            "request": "launch",
+            "mainClass": "NumberBasedLogic.fibonaciupton",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
+            "name": "rightangletriangle",
+            "request": "launch",
+            "mainClass": "PatternPrinting.rightangletriangle",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
+            "name": "square",
+            "request": "launch",
+            "mainClass": "PatternPrinting.square",
+            "projectName": "IFELSELOOP_19e93eeb"
+        },
+        {
+            "type": "java",
             "name": "SalaryBracket",
             "request": "launch",
             "mainClass": "SalaryBracket",
