@@ -3,30 +3,35 @@ package forloop;
 import java.util.Scanner;
 
 public class demo {
+
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
-        int original = num;
-        int n = 0, sum = 0;
-
-        // Step 1: Count the number of digits using a for loop
-        for (int i = num; i> 0; i /= 10) {
-            n++;
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter the number");
+        int number=s.nextInt();
+        int original=number;
+        int digit=0;
+        int count=0;
+        int sum=0;
+            //this for loop is to count how many number of digit are there 
+        for (int i =1;number>0; i++) {
+            number=number/10;
+            count++;
         }
-
-        // Step 2: Calculate the sum of digits raised to the power n
-        for (int i = num; i > 0; i /= 10) {
-            int digit = i % 10;
-            sum += Math.pow(digit, n);
+         number=original;
+    //          this logic is for armstrong number  
+        for(int i =1;number>0;i++){
+            digit=number%10;
+             sum+=(int)Math.pow(digit,count);
+            number=number/10;
+            
         }
-
-        // Step 3: Check if the sum equals the original number
-        if (sum == original) {
-            System.out.println(original + " is an Armstrong number.");
-        } else {
-            System.out.println(original + " is NOT an Armstrong number.");
+        if (original==sum) {
+            System.out.println(original+" is a armstrong number");
         }
+            else{
+                System.out.println(original+" is not an armstrong number");
+            }
+            
+       
     }
-
 }
